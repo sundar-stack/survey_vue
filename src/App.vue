@@ -8,6 +8,7 @@
 </template>
 <script>
 import Header from "./components/Header";
+import "@dafcoe/vue-collapsible-panel/dist/vue-collapsible-panel.css";
 import "./App.css";
 export default {
   name: "App",
@@ -28,7 +29,7 @@ export default {
 };
 </script>
 <style scoped>
-.wrapper{
+.wrapper {
   margin-top: 70px;
 }
 </style>

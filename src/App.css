@@ -5,6 +5,7 @@
   --white: #ffff;
   --lightGreen: #32de84;
   --blue: blue;
+  --bg-color-body:red !important;
 }
 
 body {
@@ -131,9 +132,11 @@ body {
 
 .register {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 60px;
   background: #eee1e1;
   font-family: "Federo", sans-serif;
   color: var(--black);

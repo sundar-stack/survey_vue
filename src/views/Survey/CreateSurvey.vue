@@ -33,6 +33,16 @@
             class="survey__icon"
             >mdi-plus</v-icon
           >
+          <vue-collapsible-panel-group base-color="#32de84" accordion >
+            <vue-collapsible-panel :expanded="false">>
+              <template #title> Panel A Title </template>
+              <template #content> Panel A Content </template>
+            </vue-collapsible-panel>
+            <vue-collapsible-panel :expanded="false">>
+              <template #title> Panel B Title </template>
+              <template #content> Panel B Content </template>
+            </vue-collapsible-panel>
+          </vue-collapsible-panel-group>
         </div>
         <div class="survey__question--wrapper">
           <div

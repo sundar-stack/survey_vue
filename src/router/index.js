@@ -8,8 +8,13 @@ const routes = [
   },
   {
     name: 'createSurvey',
-    path: '/',
+    path: '/create',
     component: () => import('../views/Survey/CreateSurvey.vue')
+  },
+  {
+    name: 'submitSurvey',
+    path: '/',
+    component: () => import('../views/Survey/SubmitSurvey.vue')
   }
 ]
 
